@@ -13,7 +13,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import BarraLateral from './components/BarraLateral.vue'
-import Formulario from './components/Formulario.vue'
 import FormularioPrincipal from './components/FormularioPrincipal.vue';
 
 export default defineComponent({
