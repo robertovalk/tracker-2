@@ -43,7 +43,7 @@
     import { defineComponent } from "vue";
     
     export default defineComponent({
-        name: "FormularioPrincial",
+        name: "FormularioPrincipal",
         data: () => {
           return {
             tempoEmSegundos: 0,
@@ -58,7 +58,7 @@
         },
         methods: {
             iniciar () {
-                this,this.cronometro = setInterval(() => {
+                this.cronometro = setInterval(() => {
                     this.tempoEmSegundos += 1
 
                 }, 1000)
